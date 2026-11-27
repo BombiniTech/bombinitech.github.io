@@ -1,37 +1,86 @@
-
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-CA">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bombini Technologies</title>
-    <style>
-        body {
-            background: #101010;
-            color: #ffffff;
-            font-family: Arial, sans-serif;
-            display: grid;
-            place-items: center;
-            min-height: 100vh;
-            margin: 0;
-            text-align: center;
-        }
-        main { padding: 30px; }
-        h1 { color: #FFC107; }
-        h2 { font-size: 48px; }
-        p { color: #aaaaaa; }
-        a { color: #FFC107; }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#14251f">
+<meta name="description" content="Bombini Technologies is developing endurance-first unmanned aircraft for mission-critical search and rescue. Longer flight. Fewer failures.">
+<meta property="og:title" content="Bombini Technologies | Endurance-first UAVs">
+<meta property="og:description" content="Building for the moments when every minute matters. Canadian aerospace innovation for search and rescue.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://bombinitech.com/">
+<link rel="canonical" href="https://bombinitech.com/">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<title>Bombini Technologies — Longer flight. Fewer failures.</title>
+<script src="script.js" defer></script>
 </head>
 <body>
-    <main>
-        <h1>BOMBINI TECHNOLOGIES</h1>
-        <h2>Longer flight.<br>Fewer failures.</h2>
-        <p>Endurance-first UAVs for mission-critical search.</p>
-        <p>Website coming soon.</p>
-        <a href="mailto:hello@bombinitech.com">
-            Contact us
-        </a>
-    </main>
+<a class="skip" href="#main">Skip to content</a>
+<header class="header">
+  <div class="shell nav-wrap">
+    <a class="wordmark" href="#top" aria-label="Bombini Technologies home"><span class="brand-mark" aria-hidden="true">B<span>.</span></span><span>BOMBINI<span class="brand-sub">TECHNOLOGIES</span></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu <span aria-hidden="true">☰</span></button>
+    <nav id="site-nav" aria-label="Main navigation"><a href="#mission">Mission</a><a href="#approach">Approach</a><a href="#about">About us</a><a class="nav-contact" href="#contact">Get in touch <span aria-hidden="true">↗</span></a></nav>
+  </div>
+</header>
+<main id="main">
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="hero-image" aria-hidden="true"></div>
+    <div class="shell hero-content">
+      <div class="eyebrow light"><span class="signal"></span> Canadian aerospace innovation</div>
+      <h1 id="hero-title">Longer flight.<br><em>Fewer failures.</em></h1>
+      <p>We are developing endurance-first unmanned aircraft for mission-critical search and rescue. Because when every minute matters, the mission should come first.</p>
+      <div class="hero-actions"><a class="button primary" href="#mission">Discover our mission <span aria-hidden="true">↓</span></a><a class="button outline" href="#contact">Partner with us <span aria-hidden="true">↗</span></a></div>
+    </div>
+    <div class="shell hero-foot"><span>BUILT AROUND THE MISSION.</span><span>01 / ENDURANCE FIRST</span></div>
+  </section>
+  <section class="section mission" id="mission">
+    <div class="shell">
+      <div class="section-heading"><span class="eyebrow"><span class="signal"></span> 01 / Our mission</span><h2>Every minute<br>of search counts.</h2></div>
+      <div class="mission-grid">
+        <div class="mission-photo" role="img" aria-label="Mountain and forest landscape in Banff National Park"></div>
+        <div class="mission-copy"><p class="lead">Search and rescue teams need sustained aerial coverage, but conventional small aircraft can force difficult operational trade-offs.</p><p>Limited endurance, battery changes and maintenance can interrupt a search when time is critical. Bombini Technologies is rethinking the small unmanned aircraft around the needs of the mission, rather than asking operators to adapt the mission to the aircraft.</p><p>Our initial focus is defence search and rescue and emergency response in open and semi-open environments.</p><div class="mission-tags"><span>Survivor search</span><span>Area assessment</span><span>Disaster response</span></div></div>
+      </div>
+    </div>
+  </section>
+  <section class="section approach" id="approach">
+    <div class="shell">
+      <div class="section-heading"><span class="eyebrow"><span class="signal"></span> 02 / Our approach</span><h2>Engineered for<br>the time that matters.</h2><p>We are building toward a platform that prioritizes sustained operation, practical reliability and mission flexibility.</p></div>
+      <div class="pillars">
+        <article><span class="pillar-no">01</span><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><circle cx="24" cy="24" r="17"/><path d="M24 12v12l9 5M18 3h12"/></svg><h3>Endurance first</h3><p>Designed to extend useful time in the air and reduce interruptions during critical search operations.</p></article>
+        <article><span class="pillar-no">02</span><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 5 39 11v13c0 9-8 15-15 19C17 39 9 33 9 24V11L24 5Z"/><path d="m17 24 5 5 10-11"/></svg><h3>Mission reliability</h3><p>Designed with simplicity, maintainability and repeated operation in demanding environments in mind.</p></article>
+        <article><span class="pillar-no">03</span><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M6 14V6h8m20 0h8v8m0 20v8h-8m-20 0H6v-8"/><circle cx="24" cy="24" r="9"/><path d="M24 18v12m-6-6h12"/></svg><h3>Purpose-built capability</h3><p>Developed around search and rescue requirements, with operator feedback informing our path to validation.</p></article>
+      </div>
+      <div class="stage"><span class="signal"></span><span><strong>In development.</strong> Our aircraft is at the concept stage. Performance and capabilities are development objectives, not flight-validated results.</span></div>
+    </div>
+  </section>
+  <section class="section about" id="about">
+    <div class="shell">
+      <div class="section-heading"><span class="eyebrow"><span class="signal"></span> 03 / About us</span><h2>Built by engineers.<br>Driven by purpose.</h2><p>Bombini Technologies is a Canadian aerospace venture founded by two engineers with a shared vision: to make aerial search more effective when lives are on the line.</p></div>
+      <div class="team-grid">
+        <article class="person"><div class="portrait farah"><img src="assets/farah.webp" alt="Portrait of Farah El Siss" width="1080" height="1091" loading="lazy"></div><div class="person-copy"><span class="role">Co-founder &amp; CEO</span><h3>Farah El Siss</h3><p>Biomedical Mechanical Engineering and Computing Technology graduate. Farah brings experience in systems integration, electronics, engineering team leadership and venture partnerships.</p></div></article>
+        <article class="person"><div class="portrait markos"><img src="assets/markos.webp" alt="Portrait of Markos Brown" width="800" height="800" loading="lazy"></div><div class="person-copy"><span class="role">Co-founder &amp; CTO</span><h3>Markos Brown</h3><p>Biomedical Mechanical Engineering graduate. Markos leads technical development and aircraft architecture, bringing a background in engineering research and product development.</p></div></article>
+      </div>
+    </div>
+  </section>
+  <section class="section contact" id="contact">
+    <div class="shell contact-grid">
+      <div><span class="eyebrow light"><span class="signal"></span> 04 / Get in touch</span><h2>Help us take<br>Bombini airborne.</h2><p>We welcome conversations with search and rescue operators, research institutions, industry partners, technical advisors and investors as we move from concept toward prototype validation.</p><a class="email" href="mailto:hello@bombinitech.com">hello@bombinitech.com <span aria-hidden="true">↗</span></a><p class="location">Based in Canada</p></div>
+      <form name="contact" method="POST" action="/thank-you.html" data-netlify="true" netlify-honeypot="bot-field" class="contact-form">
+        <input type="hidden" name="form-name" value="contact">
+        <p hidden><label>Leave this field empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+        <div class="form-title">Start a conversation</div>
+        <div class="field-row"><label>Full name (required)<input name="name" autocomplete="name" required placeholder="Your name" maxlength="150"></label><label>Email (required)<input type="email" name="email" autocomplete="email" required placeholder="you@example.com" maxlength="254"></label></div>
+        <label>Organization<input name="organization" autocomplete="organization" placeholder="Company or institution" maxlength="200"></label>
+        <label>I'm interested in (required)<select name="interest" required><option value="" selected disabled>Select a topic</option><option>Partnerships &amp; pilot opportunities</option><option>Research &amp; technical collaboration</option><option>Investment &amp; funding</option><option>General inquiry</option></select></label>
+        <label>Message (required)<textarea name="message" required rows="4" maxlength="5000" placeholder="Tell us how we can work together."></textarea></label>
+        <p class="privacy-note">We use the information you submit to respond to your inquiry. Please do not include confidential or sensitive information.</p>
+        <button type="submit" class="button primary">Send message <span aria-hidden="true">↗</span></button>
+      </form>
+    </div>
+  </section>
+</main>
+<footer class="footer"><div class="shell footer-inner"><a class="wordmark" href="#top"><span class="brand-mark" aria-hidden="true">B<span>.</span></span><span>BOMBINI<span class="brand-sub">TECHNOLOGIES</span></span></a><span>© <span id="year">2026</span> Bombini Technologies. All rights reserved.</span><a href="#top">Back to top ↑</a></div></footer>
 </body>
 </html>
